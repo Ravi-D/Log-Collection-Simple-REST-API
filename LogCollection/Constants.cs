@@ -4,6 +4,7 @@ namespace LogCollection
 {
     public class Constants
     {
-        public const string _PLACEHOLDER_ = "Test";
+        public const string DEFAULT_SOURCE_DIRECTORY = "/var/log/";
+        public const string DEFAULT_DESTINATION_DIRECTORY = "C:/Users/";
     }
 }

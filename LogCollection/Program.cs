@@ -1,4 +1,6 @@
-﻿namespace LogCollection
+﻿using Microsoft.Extensions.DependencyInjection.Extensions;
+
+namespace LogCollection
 {
     public class Program
     {
@@ -10,7 +12,7 @@
             
             //Swagger: https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddSwaggerGen();            
 
             var app = builder.Build();
 
@@ -18,11 +20,14 @@
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
+            
+            
 
             app.Run();
         }
