@@ -19,9 +19,9 @@
 
 
 #### Dependencies 🏗
--
--
--
+- Swashbuckle.AspNetCore v6.2.3
+- NUnit vTBD
+- NUnitTest3Adapter vTBD
 
 #### Testing 🧪
 This project utilizes the NUnit testing framework.
@@ -32,14 +32,13 @@ This project utilizes the NUnit testing framework.
 
 #### Some thoughts I had....
 ##### Initial Planning
--
--
+- Which file reading library would work best for this use case? (Keeping in mind performance, and ease of use.
+- The ever-present "how should I structure these classes" internal monologue possibly resulting in a tiny mid-development refactor.
 -
 -
 
 
 ##### What's Next? 🤔
-
 -
 -
 -
