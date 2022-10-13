@@ -1,4 +1,4 @@
-﻿namespace LogCollection
+﻿namespace LogCollection.Interfaces
 {
     public interface IFileHandler
     {

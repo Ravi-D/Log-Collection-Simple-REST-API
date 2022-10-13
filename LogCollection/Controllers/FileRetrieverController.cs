@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using static LogCollection.Constants;
+using LogCollection.Interfaces;
 
 namespace LogCollection.Controllers
 {
@@ -74,6 +75,19 @@ namespace LogCollection.Controllers
             return logResult;
         }
 
+
+        [HttpGet]
+        [Route("TEST")]
+        public string TEST()
+        {
+            string logPath = $@"C:\Users\Ravi\Desktop\temp\file-big.txt";
+            string logResult = String.Empty;
+            logResult = _fileHandler.RetrieveFileBasedOnFileName("file-big");
+
+            _logger.LogInformation($"{nameof(GetLogByName)}, {_fileHandler.GetCorrelationId()}");
+            
+            return logResult;
+        }
         //May not need ReadLogHelper, as logic is already delegated to FileHandler .
         #region Helper Methods
         private string ReadLogHelper()

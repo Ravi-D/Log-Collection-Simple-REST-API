@@ -1,4 +1,5 @@
-﻿using System.IO.MemoryMappedFiles;
+﻿using LogCollection.Interfaces;
+using System.IO.MemoryMappedFiles;
 using System.Text;
 using static LogCollection.Constants;
 
@@ -6,14 +7,14 @@ namespace LogCollection
 {
     public class MemoryMappedFileHandler : IFileHandler
     {
-        private readonly Guid _correlationId;
+        private Guid _correlationId => Guid.NewGuid();
         private MemoryMappedFile _mappedFile;
         private MemoryMappedViewStream _viewStream;
         //private StringBuilder _stringBuilder;
 
+        public MemoryMappedFileHandler() { }
         public MemoryMappedFileHandler(MemoryMappedFile mappedFile, MemoryMappedViewStream viewStream /*StringBuilder stringBuilder*/) 
         {
-            _correlationId = Guid.NewGuid();
             _mappedFile = mappedFile;
             _viewStream = viewStream;
             //_stringBuilder = stringBuilder;

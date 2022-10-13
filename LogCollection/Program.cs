@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection.Extensions;
+﻿using LogCollection.Interfaces;
 
 namespace LogCollection
 {
@@ -9,8 +9,9 @@ namespace LogCollection
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
-            builder.Services.AddSingleton<IFileHandler>();
-            
+            builder.Services.AddLogging();
+            builder.Services.AddSingleton<IFileHandler, MemoryMappedFileHandler>();
+
             //Swagger: https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();            
@@ -27,8 +28,6 @@ namespace LogCollection
             app.UseHttpsRedirection();
             app.UseAuthorization();
             app.MapControllers();
-            
-            
 
             app.Run();
         }
