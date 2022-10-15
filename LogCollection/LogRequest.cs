@@ -2,17 +2,17 @@
 {
     public class LogRequest
     {
-        public string _fullPath { get; set; }
-        public string _fileName { get; set; }
-        private int? _lines { get; set; }
-        private string? _filter { get; set; }
+        private string _fullPath { get; set; }
+        private string _fileName { get; set; }
+        private int? _linesToReturn { get; set; }
+        private string? _searchTerm { get; set; }
 
-        public LogRequest(string fullPath, string fileName, int? lines, string? filter)
+        public LogRequest(string fullPath, string fileName, int? linesToReturn, string? searchTerm)
         {
             _fullPath = fullPath;
             _fileName = fileName;
-            _lines = lines;
-            _filter = filter;
+            _linesToReturn = linesToReturn;
+            _searchTerm = searchTerm;
         }
 
         public string GetFullPath()
@@ -25,11 +25,11 @@
         }
         public int? GetMaxLinesToReturn()
         {
-            return _lines;
+            return _linesToReturn;
         }
-        public string? GetFilterExpression()
+        public string? GetSearchTerm()
         {
-            return _filter;
+            return _searchTerm;
         }
 
     }

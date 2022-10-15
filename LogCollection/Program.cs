@@ -10,7 +10,7 @@ namespace LogCollection
 
             builder.Services.AddControllers();
             builder.Services.AddLogging();
-            builder.Services.AddSingleton<IFileHandler<LogRequest>, MemoryMappedFileHandler>();
+            builder.Services.AddSingleton<IFileHandler<LogRequest>, CustomFileHandler>();
 
             //Swagger: https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
