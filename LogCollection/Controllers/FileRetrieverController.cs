@@ -2,6 +2,7 @@
 using System.IO.MemoryMappedFiles;
 using System.IO;
 using System.Linq;
+using static System.IO.File;
 using System.Text;
 using static LogCollection.Constants;
 using LogCollection.Interfaces;
@@ -13,9 +14,9 @@ namespace LogCollection.Controllers
     public class FileRetrieverController : ControllerBase
     {
         private readonly ILogger<FileRetrieverController> _logger;
-        private IFileHandler _fileHandler;
+        private IFileHandler<LogRequest> _fileHandler;
 
-        public FileRetrieverController(ILogger<FileRetrieverController> logger, IFileHandler fileHandler)
+        public FileRetrieverController(ILogger<FileRetrieverController> logger, IFileHandler<LogRequest> fileHandler)
         {
             _logger = logger;
             _fileHandler = fileHandler;
@@ -23,78 +24,57 @@ namespace LogCollection.Controllers
 
         [HttpGet]
         [Route("get-log-by-name")]
-        public string GetLogByName(string fileName)
+        public string GetLogByName(string fileName, int? lines, string? filter)
         {
-            string logPath = $@"C:\Users\Ravi\Desktop\temp\{fileName}.txt";
+            string filePath = SOURCE_DIRECTORY + fileName;
             string logResult = String.Empty;
 
             try
             {
-                logResult = _fileHandler.RetrieveFileBasedOnFileName(fileName);
+                logResult = _fileHandler.ProcessRequest(new LogRequest(filePath, fileName, lines, filter));
             }
             catch (Exception ex)
             {
-                _logger.LogTrace($"{nameof(GetLogByName)}, {_fileHandler.GetCorrelationId()}");
+                _logger.LogTrace($"Function: {nameof(GetLogByName)}\n ID: {_fileHandler.GetCorrelationId()}\n Exception: {ex}");
             }
             return logResult;
         }
 
-        [HttpGet]
-        [Route("get-last-n-lines-of-log")]
-        public string GetLastNLinesOfLog(int numEntries)
-        {
-            string logPath = @"C:\Users\Ravi\Desktop\temp\file-big.txt";
-            string logResult = String.Empty;
-
-            try
-            {
-                logResult = _fileHandler.RetrieveLastNFileLinesBasedOnCount(numEntries);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogTrace($"{nameof(GetLastNLinesOfLog)}, {_fileHandler.GetCorrelationId()}");
-            }
-            return logResult;
-        }
-
-        [HttpGet]
-        [Route("get-log-by-keywords")]
-        public string GetLogByKeyword (string filter)
-        {
-            string logPath = @"C:\Users\Ravi\Desktop\temp\file-big.txt";
-            string logResult = String.Empty;
-
-            try
-            {
-                logResult = _fileHandler.RetrieveFilteredFileBasedOnExpression(filter);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogTrace($"{nameof(GetLogByKeyword)}, {_fileHandler.GetCorrelationId()}");
-            }
-            return logResult;
-        }
+        #region hide for now
 
 
         [HttpGet]
         [Route("TEST")]
         public string TEST()
         {
-            string logPath = $@"C:\Users\Ravi\Desktop\temp\file-big.txt";
-            string logResult = String.Empty;
-            logResult = _fileHandler.RetrieveFileBasedOnFileName("file-big");
+            string logSmall = "log-small.txt";
+            string log = "log.txt";
 
-            _logger.LogInformation($"{nameof(GetLogByName)}, {_fileHandler.GetCorrelationId()}");
-            
+            string logPathSmall = $@"C:\Users\Ravi\Desktop\temp\{logSmall}";
+            string logPath = $@"C:\Users\Ravi\Desktop\temp\{log}";
+
+            int lines = 0;
+            string filter = String.Empty;
+            string logResult = String.Empty;
+
+            try
+            {
+                logResult = _fileHandler.ProcessRequest(new LogRequest(logPath, log, lines, filter));
+                //logResult = _fileHandler.ProcessRequest(new LogRequest(logPathSmall, logSmall, lines, filter));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogTrace($"{nameof(TEST)}, {_fileHandler.GetCorrelationId()}, threw {ex}");
+            }
             return logResult;
         }
         //May not need ReadLogHelper, as logic is already delegated to FileHandler .
         #region Helper Methods
         private string ReadLogHelper()
         {
-            string logPath = "";
+            //string logPath = "";
             StringBuilder resultAsString = new StringBuilder();
-            using (MemoryMappedFile memoryMappedFile = MemoryMappedFile.CreateFromFile(logPath))
+            using (MemoryMappedFile memoryMappedFile = MemoryMappedFile.CreateFromFile(TEST_LOG))
             using (MemoryMappedViewStream memoryMappedViewStream = memoryMappedFile.CreateViewStream(0, MEMORY_STREAM_SIZE))
             {
                 //memoryMappedViewStream.ReadTimeout = 100;
@@ -126,3 +106,4 @@ StreamWriter
 XmlReader
 XmlWriter
 */
+#endregion

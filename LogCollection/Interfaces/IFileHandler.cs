@@ -1,10 +1,12 @@
 ﻿namespace LogCollection.Interfaces
 {
-    public interface IFileHandler
+    public interface IFileHandler<LogRequest>
     {
-        public string RetrieveFileBasedOnFileName(string fileName);
-        public string RetrieveLastNFileLinesBasedOnCount(int numEntries);
-        public string RetrieveFilteredFileBasedOnExpression(string filter);
+        public string ProcessRequest(LogRequest logRequest);//LogRequest logRequest
+
+
+       // public string ReadFile(LogRequest logRequest);//LogRequest logRequest
+
         public Guid GetCorrelationId();
     }
 }
