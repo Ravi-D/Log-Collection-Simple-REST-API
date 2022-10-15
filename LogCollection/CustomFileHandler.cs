@@ -16,38 +16,111 @@ namespace LogCollection
             return _correlationId;
         }
 
+        /// <summary>
+        /// Because we are performing sequential file operations, StreamReader provides a significantly faster approach over MemoryMapping. 
+        /// This also makes filtering and line counting much easier.
+        /// Depending on your machine's RAM, this function will not have enough memory to process large files (>1GB). The rampup in RAM usage is quick, and sustained peak is much higher compared to MemoryMap.
+        /// <param name="logRequest"></param>
+        /// <returns>string result of log data, optionally filtered by keyword and restricted to a certain line count.</returns>
         public string ProcessRequest(LogRequest logRequest)
         {
-            string logResult;
-            bool useStreamReader = true;
-
+            string logResult = String.Empty;
             string fullPath = logRequest.GetFullPath();
             string fileName = logRequest.GetFileName();
-            int? lines = logRequest.GetMaxLinesToReturn();
-            string? filter = logRequest.GetSearchTerm();
+            int? linesRequested = logRequest.GetMaxLinesToReturn();
+            string? keyword = logRequest.GetSearchTerm();
 
             long fileSize = new FileInfo(fullPath).Length;
-            if (useStreamReader)
+
+            if (linesRequested <= 0)
             {
-                return ProcessRequestStreamReader(logRequest);
+                return String.Empty;
             }
 
-            //TODO Future Work below - How can we get memory mapped file I/O to satisfy this assessment's constraints?
-            //1. Reading byte by byte means we have to take responsibility to reliably find every end of line character and append all current characters in the line to a string/list.
-            //2. How can we safely manage memory and buffer sizes for many different file size input possibilities without resorting to arbitrarily modifying MEMORY_STREAM_SIZE?
-            //3. We run into a lot of UnauthorizedAccess exceptions here likely due to the discrepancy in size betwen the MEMORY_STREAM and how small the file actually is.
-            //4. All in all, I found that the memory map was extremely performant for simply reading and printing out large file content when logical operations (filtering, ordering by descending date etc) were not a factor.
+            bool test = string.IsNullOrWhiteSpace(keyword);
 
-            //MemoryMappedFile
+            bool returnEntireFile = ((linesRequested == null || linesRequested > fileSize) && string.IsNullOrWhiteSpace(keyword));
+            bool filterRequired = !string.IsNullOrWhiteSpace(keyword);
+            bool lineCountRequired = linesRequested > 0;
+            bool bothOptionsPresent = (filterRequired && lineCountRequired);
+
+            int linesAdded = 0;
+            StringBuilder resultBuilder = new StringBuilder();
+
+            //Reading the file backwards would improve this operation. Currently it's a pretty heavy O(N) since we're reading each line and reversing the order of each row.
+            //Decided to be more explicit 
+            foreach (string line in File.ReadLines(fullPath).Reverse())
+            {
+                bool keywordFound = (filterRequired && line.Contains(keyword));
+
+                if (returnEntireFile)
+                { 
+                    resultBuilder.Append(line + "\n");
+                }
+
+                if (bothOptionsPresent && line.Contains(keyword))
+                {
+                    if (linesAdded < linesRequested)
+                    {
+                        resultBuilder.Append(line + "\n");
+                        linesAdded += 1;
+                    }
+                    else
+                    {
+                        break; 
+                    }
+                }
+
+                if (lineCountRequired && !filterRequired)
+                {
+                    if (linesAdded < linesRequested)
+                    {
+                        resultBuilder.Append(line + "\n"); 
+                        linesAdded += 1;
+                    } 
+                    else 
+                    { 
+                        break; 
+                    } 
+                }
+                
+                if (keywordFound && !lineCountRequired)
+                {
+                    resultBuilder.Append(line + "\n");
+                }
+            }
+
+            logResult = resultBuilder.ToString();
+            resultBuilder.Clear();
+
+            return logResult;
+
+        }
+
+        /// <summary>
+        /// MemoryMapping is superior for randomly accessing sub sections of massive files.
+        /// My implementation below treated the entire file as a single subset...
+        /// Depending on your machine's RAM, this function will time out eventually on large files. RAM consumption gradually increases compared to StreamReader's sharp increase, sustained peak, and eventually noisy exception.
+        /// </summary>
+        /// <param name="logRequest"></param>
+        /// <returns>string result of log data, optionally filtered by keyword and restricted to a certain line count.</returns>
+        public string ProcessRequest_1GB_Test(LogRequest logRequest)
+        {
+
+            string logResult = String.Empty;
+            string fullPath = logRequest.GetFullPath();
+            string fileName = logRequest.GetFileName();
+            int? linesRequested = logRequest.GetMaxLinesToReturn();
+            string? keyword = logRequest.GetSearchTerm();
+
+            long fileSize = new FileInfo(fullPath).Length;
 
             StringBuilder resultBuilder = new StringBuilder();
-            List<string> resultList = new List<string>();
-
-            using (MemoryMappedFile mappedFile = MemoryMappedFile.CreateFromFile(TEST_FILE_1GB))
-            using (MemoryMappedViewAccessor mapView = mappedFile.CreateViewAccessor(0, MEMORY_STREAM_SIZE, MemoryMappedFileAccess.Read))
-            using (MemoryMappedViewStream viewStream = mappedFile.CreateViewStream(0, MEMORY_STREAM_SIZE, MemoryMappedFileAccess.Read))
+            using (MemoryMappedFile mappedFile = MemoryMappedFile.CreateFromFile(fullPath))
+            using (MemoryMappedViewAccessor mapView = mappedFile.CreateViewAccessor(0, fileSize, MemoryMappedFileAccess.Read))
+            using (MemoryMappedViewStream viewStream = mappedFile.CreateViewStream(0, fileSize, MemoryMappedFileAccess.Read))
             {
-                for (int i = 0; i < MEMORY_STREAM_SIZE; i++)
+                for (int i = 0; i < fileSize; i++)
                 {
                     //Read one byte at a time until the end of the stream.
                     int result = viewStream.ReadByte();
@@ -56,75 +129,10 @@ namespace LogCollection
                     {
                         break;
                     }
-
                     resultBuilder.Append((char)result);
-
-                    //Scanning for end of line
-                    if (i >= 1 && resultBuilder[i].ToString() + resultBuilder[i - 1].ToString() == EOF_UNIX) ;
-                    {
-                        resultList.Add(resultBuilder.ToString());
-                    }
                 }
             }
 
-            logResult = resultBuilder.ToString();
-            resultBuilder.Clear();
-
-            return logResult;
-            
-        }
-
-        /// <summary>
-        /// File operations via StreamReader line by line is less performant than a MemoryMap, but much easier to work with logically. At least we're not doing ReadToEnd().
-        /// </summary>
-        /// <param name="logRequest"></param>
-        /// <returns></returns>
-        private static string ProcessRequestStreamReader(LogRequest logRequest)
-        {
-            string logResult = String.Empty;
-            string fullPath = logRequest.GetFullPath();
-            string fileName = logRequest.GetFileName();
-            int? linesRequested = logRequest.GetMaxLinesToReturn();
-            string? keyword = logRequest.GetSearchTerm();
-
-            if (linesRequested <= 0)
-            {
-                return String.Empty;
-            }
-
-            bool standardProcessing = (linesRequested == null && string.IsNullOrWhiteSpace(keyword));
-            bool filterRequired = (linesRequested == null && !string.IsNullOrWhiteSpace(keyword));
-            bool lineCountRequired = (linesRequested > 0);
-            
-            bool bothOptionsPresent = (filterRequired && lineCountRequired);
-
-
-            int linesAdded = 0;
-            StringBuilder resultBuilder = new StringBuilder();
-            
-            //Reading the file backwards would improve this operation. Currently it's a pretty heavy O(N) since we're reading each line and reversing the order of each row.
-            foreach (string line in File.ReadLines(fullPath).Reverse())
-            {
-                if (lineCountRequired)
-                {
-                    while (linesAdded < linesRequested)
-                    {
-                        if (filterRequired && line.Contains(keyword))
-                        {
-                            resultBuilder.Append(line);
-                        }
-                        linesAdded++;
-                    }
-                }
-                else
-                {
-                    if (filterRequired && line.Contains(keyword))
-                    {
-                        resultBuilder.Append(line);
-                    }
-                }
-            }
-            
             logResult = resultBuilder.ToString();
             resultBuilder.Clear();
 

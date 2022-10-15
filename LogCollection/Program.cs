@@ -2,7 +2,7 @@
 
 namespace LogCollection
 {
-    public class Program
+    internal static class Program
     {
         public static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace LogCollection
 
             //Swagger: https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();            
+            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 

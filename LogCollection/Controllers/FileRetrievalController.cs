@@ -18,7 +18,7 @@ namespace LogCollection.Controllers
         }
 
         /// <summary>
-        /// Allow user to send a GET request for the contents of a specific log file. Optionally, they can reduce the result set with a max line count and/or keyword filter.
+        /// Allow user to send a GET request for the contents of a specific log file. Optionally, they can filter the result set with a max line limit and/or keyword expression.
         /// </summary>
         /// <param name="fileName"></param>
         /// <param name="linesToReturn"></param>
@@ -26,10 +26,9 @@ namespace LogCollection.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("get-log-by-name")]
-        public string GetLogByName(string fileName, int? linesToReturn, string? searchTerm)
+        public ContentResult GetLogByName(string fileName, int? linesToReturn, string? searchTerm)
         {
-            //string filePath = SOURCE_DIRECTORY + fileName;
-            string fullPath = STG_SOURCE_DIRECTORY + fileName;
+            string fullPath = PROD_SOURCE_DIRECTORY + fileName;
             string logResult = String.Empty;
 
             try
@@ -43,8 +42,46 @@ namespace LogCollection.Controllers
             catch (Exception ex)
             {
                 _logger.LogTrace($"Function: {nameof(GetLogByName)}\n ID: {_fileHandler.GetCorrelationId()}\n Exception: {ex}");
+                Console.WriteLine(ex.Message);
+                HttpContext.Response.StatusCode = 404;
+
+                return new ContentResult() { Content = ex.Message, StatusCode = HttpContext.Response.StatusCode };
             }
-            return logResult;
+            
+            Console.WriteLine(logResult);
+
+            return new ContentResult() { Content = logResult, StatusCode = HttpContext.Response.StatusCode };
+        }
+
+        /// <summary>
+        /// Allow user to send a GET request without parameters to test performant MemoryMapped file operations on a 1 gigabyte file. No filtering or line counting is performed.
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <param name="linesToReturn"></param>
+        /// <param name="searchTerm"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("/perftest/get-1gb-log")]
+        public ContentResult Get1GBLogTest()
+        {   
+            string fullPath = TEST_FILE_1GB;
+            string logResult = String.Empty;
+
+            try
+            {
+                logResult = _fileHandler.ProcessRequest_1GB_Test(new LogRequest(fullPath, "file-big.txt", null, null));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogTrace($"Function: {nameof(Get1GBLogTest)}\n ID: {_fileHandler.GetCorrelationId()}\n Exception: {ex}");
+                Console.WriteLine(ex.Message);
+                HttpContext.Response.StatusCode = 404;
+                
+                return new ContentResult() { Content = ex.Message, StatusCode = HttpContext.Response.StatusCode };
+            }
+            
+            Console.WriteLine(logResult);
+            return new ContentResult() { Content = logResult, StatusCode = HttpContext.Response.StatusCode };
         }
     }
 }

@@ -2,16 +2,14 @@
 {
     public class Constants
     {
-        public const string PROD_SOURCE_DIRECTORY = ".../var/log/";
+        //To run this application correctly, please update the PROD_SOURCE_DIRECTORY to a location that contains your target log files to read.
+        public const string PROD_SOURCE_DIRECTORY = @".../var/log/";
         public const string STG_SOURCE_DIRECTORY = @"C:\Users\Ravi\Desktop\temp\";
-        public const string DESTINATION_DIRECTORY = "C:/Users/";
-
+        
         public const string TEST_LOG = @"C:\Users\Ravi\Desktop\temp\log.txt";
         public const string TEST_LOG_SMALL = @"C:\Users\Ravi\Desktop\temp\log-small.txt";
         public const string TEST_FILE_1GB = @"C:\Users\Ravi\Desktop\temp\file-big.txt";
-
         public const string NOT_FOUND = @"C:\Users\Ravi\Desktop\temp\DoesNotExist.txt";
-        
         
         public const string EOF_WIN = @"\r\n"; //Environment.NewLine will return correct end of file byte according to host OS type. \n for Unix, \r\n for Windows
         public const string EOF_UNIX = "\n";

@@ -1,0 +1,1193 @@
+[2022-10-04 21:56:12] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-04 21:56:13] Processing tool list from AppID 891390
+[2022-10-04 21:56:13] Registering tool proton_experimental, AppID 1493710
+[2022-10-04 21:56:13] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_7, AppID 1887720
+[2022-10-04 21:56:13] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_63, AppID 1580130
+[2022-10-04 21:56:13] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_513, AppID 1420170
+[2022-10-04 21:56:13] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_5, AppID 1245040
+[2022-10-04 21:56:13] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_411, AppID 1113280
+[2022-10-04 21:56:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_42, AppID 1054830
+[2022-10-04 21:56:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_316, AppID 961940
+[2022-10-04 21:56:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool proton_37, AppID 858280
+[2022-10-04 21:56:13] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-04 21:56:13] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-04 21:56:13] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-04 21:56:13] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-04 21:56:13] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-05 17:21:13] Processing tool list from AppID 891390
+[2022-10-05 17:21:13] Registering tool proton_experimental, AppID 1493710
+[2022-10-05 17:21:13] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_7, AppID 1887720
+[2022-10-05 17:21:13] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_63, AppID 1580130
+[2022-10-05 17:21:13] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_513, AppID 1420170
+[2022-10-05 17:21:13] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_5, AppID 1245040
+[2022-10-05 17:21:13] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_411, AppID 1113280
+[2022-10-05 17:21:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_42, AppID 1054830
+[2022-10-05 17:21:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_316, AppID 961940
+[2022-10-05 17:21:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_37, AppID 858280
+[2022-10-05 17:21:13] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-05 17:21:13] Processing tool list from AppID 891390
+[2022-10-05 17:21:13] Registering tool proton_experimental, AppID 1493710
+[2022-10-05 17:21:13] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_7, AppID 1887720
+[2022-10-05 17:21:13] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_63, AppID 1580130
+[2022-10-05 17:21:13] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_513, AppID 1420170
+[2022-10-05 17:21:13] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_5, AppID 1245040
+[2022-10-05 17:21:13] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_411, AppID 1113280
+[2022-10-05 17:21:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_42, AppID 1054830
+[2022-10-05 17:21:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_316, AppID 961940
+[2022-10-05 17:21:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool proton_37, AppID 858280
+[2022-10-05 17:21:13] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-05 17:21:13] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-05 17:21:13] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-05 17:44:06] StartSession: session af934b5f0c664c13
+[2022-10-05 18:30:11] StartSession: session fca2b1caf14a41ac
+[2022-10-05 18:55:26] Processing tool list from AppID 891390
+[2022-10-05 18:55:26] Registering tool proton_experimental, AppID 1493710
+[2022-10-05 18:55:26] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_7, AppID 1887720
+[2022-10-05 18:55:26] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_63, AppID 1580130
+[2022-10-05 18:55:26] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_513, AppID 1420170
+[2022-10-05 18:55:26] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_5, AppID 1245040
+[2022-10-05 18:55:26] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_411, AppID 1113280
+[2022-10-05 18:55:26] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_42, AppID 1054830
+[2022-10-05 18:55:26] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_316, AppID 961940
+[2022-10-05 18:55:26] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_37, AppID 858280
+[2022-10-05 18:55:26] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-05 18:55:26] Processing tool list from AppID 891390
+[2022-10-05 18:55:26] Registering tool proton_experimental, AppID 1493710
+[2022-10-05 18:55:26] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_7, AppID 1887720
+[2022-10-05 18:55:26] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_63, AppID 1580130
+[2022-10-05 18:55:26] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_513, AppID 1420170
+[2022-10-05 18:55:26] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_5, AppID 1245040
+[2022-10-05 18:55:26] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_411, AppID 1113280
+[2022-10-05 18:55:26] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_42, AppID 1054830
+[2022-10-05 18:55:26] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_316, AppID 961940
+[2022-10-05 18:55:26] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool proton_37, AppID 858280
+[2022-10-05 18:55:26] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-05 18:55:26] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-05 18:55:26] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 10:00:54] Processing tool list from AppID 891390
+[2022-10-06 10:00:54] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 10:00:54] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_7, AppID 1887720
+[2022-10-06 10:00:54] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_63, AppID 1580130
+[2022-10-06 10:00:54] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_513, AppID 1420170
+[2022-10-06 10:00:54] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_5, AppID 1245040
+[2022-10-06 10:00:54] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_411, AppID 1113280
+[2022-10-06 10:00:54] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_42, AppID 1054830
+[2022-10-06 10:00:54] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_316, AppID 961940
+[2022-10-06 10:00:54] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_37, AppID 858280
+[2022-10-06 10:00:54] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 10:00:54] Processing tool list from AppID 891390
+[2022-10-06 10:00:54] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 10:00:54] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_7, AppID 1887720
+[2022-10-06 10:00:54] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_63, AppID 1580130
+[2022-10-06 10:00:54] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_513, AppID 1420170
+[2022-10-06 10:00:54] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_5, AppID 1245040
+[2022-10-06 10:00:54] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_411, AppID 1113280
+[2022-10-06 10:00:54] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_42, AppID 1054830
+[2022-10-06 10:00:54] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_316, AppID 961940
+[2022-10-06 10:00:54] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool proton_37, AppID 858280
+[2022-10-06 10:00:54] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 10:00:54] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 10:00:54] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 10:02:09] Processing tool list from AppID 891390
+[2022-10-06 10:02:09] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 10:02:09] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_7, AppID 1887720
+[2022-10-06 10:02:09] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_63, AppID 1580130
+[2022-10-06 10:02:09] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_513, AppID 1420170
+[2022-10-06 10:02:09] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_5, AppID 1245040
+[2022-10-06 10:02:09] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_411, AppID 1113280
+[2022-10-06 10:02:09] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_42, AppID 1054830
+[2022-10-06 10:02:09] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_316, AppID 961940
+[2022-10-06 10:02:09] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool proton_37, AppID 858280
+[2022-10-06 10:02:09] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 10:02:09] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 10:02:09] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 10:02:09] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 10:02:09] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 10:05:13] Processing tool list from AppID 891390
+[2022-10-06 10:05:13] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 10:05:13] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_7, AppID 1887720
+[2022-10-06 10:05:13] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_63, AppID 1580130
+[2022-10-06 10:05:13] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_513, AppID 1420170
+[2022-10-06 10:05:13] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_5, AppID 1245040
+[2022-10-06 10:05:13] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_411, AppID 1113280
+[2022-10-06 10:05:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_42, AppID 1054830
+[2022-10-06 10:05:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_316, AppID 961940
+[2022-10-06 10:05:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool proton_37, AppID 858280
+[2022-10-06 10:05:13] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 10:05:13] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 10:05:13] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 10:05:13] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 10:05:13] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 10:05:14] Processing tool list from AppID 891390
+[2022-10-06 10:05:14] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 10:05:14] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_7, AppID 1887720
+[2022-10-06 10:05:14] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_63, AppID 1580130
+[2022-10-06 10:05:14] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_513, AppID 1420170
+[2022-10-06 10:05:14] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_5, AppID 1245040
+[2022-10-06 10:05:14] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_411, AppID 1113280
+[2022-10-06 10:05:14] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_42, AppID 1054830
+[2022-10-06 10:05:14] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_316, AppID 961940
+[2022-10-06 10:05:14] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool proton_37, AppID 858280
+[2022-10-06 10:05:14] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 10:05:14] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 10:05:14] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 10:05:14] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 10:05:14] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 15:20:45] Processing tool list from AppID 891390
+[2022-10-06 15:20:45] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 15:20:45] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_7, AppID 1887720
+[2022-10-06 15:20:45] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_63, AppID 1580130
+[2022-10-06 15:20:45] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_513, AppID 1420170
+[2022-10-06 15:20:45] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_5, AppID 1245040
+[2022-10-06 15:20:45] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_411, AppID 1113280
+[2022-10-06 15:20:45] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_42, AppID 1054830
+[2022-10-06 15:20:45] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_316, AppID 961940
+[2022-10-06 15:20:45] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_37, AppID 858280
+[2022-10-06 15:20:45] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 15:20:45] Processing tool list from AppID 891390
+[2022-10-06 15:20:45] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 15:20:45] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_7, AppID 1887720
+[2022-10-06 15:20:45] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_63, AppID 1580130
+[2022-10-06 15:20:45] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_513, AppID 1420170
+[2022-10-06 15:20:45] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_5, AppID 1245040
+[2022-10-06 15:20:45] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_411, AppID 1113280
+[2022-10-06 15:20:45] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_42, AppID 1054830
+[2022-10-06 15:20:45] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_316, AppID 961940
+[2022-10-06 15:20:45] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool proton_37, AppID 858280
+[2022-10-06 15:20:45] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 15:20:45] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 15:20:45] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 15:20:46] StartSession: session e3010c872867d372
+[2022-10-06 16:18:18] StartSession: session 3bc884a71797d8df
+[2022-10-06 16:24:48] Processing tool list from AppID 891390
+[2022-10-06 16:24:48] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 16:24:48] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_7, AppID 1887720
+[2022-10-06 16:24:48] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_63, AppID 1580130
+[2022-10-06 16:24:48] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_513, AppID 1420170
+[2022-10-06 16:24:48] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_5, AppID 1245040
+[2022-10-06 16:24:48] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_411, AppID 1113280
+[2022-10-06 16:24:48] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_42, AppID 1054830
+[2022-10-06 16:24:48] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_316, AppID 961940
+[2022-10-06 16:24:48] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool proton_37, AppID 858280
+[2022-10-06 16:24:48] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 16:24:48] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 16:24:48] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 16:24:48] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 16:24:48] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 16:52:32] StartSession: session ddcf506321d1fa2
+[2022-10-06 19:10:05] Processing tool list from AppID 891390
+[2022-10-06 19:10:05] Registering tool proton_experimental, AppID 1493710
+[2022-10-06 19:10:05] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_7, AppID 1887720
+[2022-10-06 19:10:05] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_63, AppID 1580130
+[2022-10-06 19:10:05] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_513, AppID 1420170
+[2022-10-06 19:10:05] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_5, AppID 1245040
+[2022-10-06 19:10:05] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_411, AppID 1113280
+[2022-10-06 19:10:05] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_42, AppID 1054830
+[2022-10-06 19:10:05] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_316, AppID 961940
+[2022-10-06 19:10:05] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool proton_37, AppID 858280
+[2022-10-06 19:10:05] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-06 19:10:05] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-06 19:10:05] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-06 19:10:05] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-06 19:10:05] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-06 20:11:06] StartSession: session 5760cd02d1f32d1f
+[2022-10-07 12:17:51] Processing tool list from AppID 891390
+[2022-10-07 12:17:51] Registering tool proton_experimental, AppID 1493710
+[2022-10-07 12:17:51] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_7, AppID 1887720
+[2022-10-07 12:17:51] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_63, AppID 1580130
+[2022-10-07 12:17:51] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_513, AppID 1420170
+[2022-10-07 12:17:51] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_5, AppID 1245040
+[2022-10-07 12:17:51] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_411, AppID 1113280
+[2022-10-07 12:17:51] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_42, AppID 1054830
+[2022-10-07 12:17:51] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_316, AppID 961940
+[2022-10-07 12:17:51] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool proton_37, AppID 858280
+[2022-10-07 12:17:51] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-07 12:17:51] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-07 12:17:51] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-07 12:17:51] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-07 12:17:51] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-07 12:17:52] Processing tool list from AppID 891390
+[2022-10-07 12:17:52] Registering tool proton_experimental, AppID 1493710
+[2022-10-07 12:17:52] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_7, AppID 1887720
+[2022-10-07 12:17:52] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_63, AppID 1580130
+[2022-10-07 12:17:52] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_513, AppID 1420170
+[2022-10-07 12:17:52] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_5, AppID 1245040
+[2022-10-07 12:17:52] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_411, AppID 1113280
+[2022-10-07 12:17:52] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_42, AppID 1054830
+[2022-10-07 12:17:52] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_316, AppID 961940
+[2022-10-07 12:17:52] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool proton_37, AppID 858280
+[2022-10-07 12:17:52] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-07 12:17:52] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-07 12:17:52] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-07 12:17:52] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-07 12:17:52] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-07 12:50:27] Processing tool list from AppID 891390
+[2022-10-07 12:50:27] Registering tool proton_experimental, AppID 1493710
+[2022-10-07 12:50:27] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_7, AppID 1887720
+[2022-10-07 12:50:27] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_63, AppID 1580130
+[2022-10-07 12:50:27] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_513, AppID 1420170
+[2022-10-07 12:50:27] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_5, AppID 1245040
+[2022-10-07 12:50:27] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_411, AppID 1113280
+[2022-10-07 12:50:27] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_42, AppID 1054830
+[2022-10-07 12:50:27] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_316, AppID 961940
+[2022-10-07 12:50:27] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool proton_37, AppID 858280
+[2022-10-07 12:50:27] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-07 12:50:27] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-07 12:50:27] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-07 12:50:27] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-07 12:50:27] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-07 14:39:33] StartSession: session 7a4569abffdd1c61
+[2022-10-09 17:14:11] Processing tool list from AppID 891390
+[2022-10-09 17:14:11] Registering tool proton_experimental, AppID 1493710
+[2022-10-09 17:14:11] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_7, AppID 1887720
+[2022-10-09 17:14:11] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_63, AppID 1580130
+[2022-10-09 17:14:11] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_513, AppID 1420170
+[2022-10-09 17:14:11] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_5, AppID 1245040
+[2022-10-09 17:14:11] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_411, AppID 1113280
+[2022-10-09 17:14:11] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_42, AppID 1054830
+[2022-10-09 17:14:11] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_316, AppID 961940
+[2022-10-09 17:14:11] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_37, AppID 858280
+[2022-10-09 17:14:11] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-09 17:14:11] Processing tool list from AppID 891390
+[2022-10-09 17:14:11] Registering tool proton_experimental, AppID 1493710
+[2022-10-09 17:14:11] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_7, AppID 1887720
+[2022-10-09 17:14:11] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_63, AppID 1580130
+[2022-10-09 17:14:11] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_513, AppID 1420170
+[2022-10-09 17:14:11] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_5, AppID 1245040
+[2022-10-09 17:14:11] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_411, AppID 1113280
+[2022-10-09 17:14:11] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_42, AppID 1054830
+[2022-10-09 17:14:11] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_316, AppID 961940
+[2022-10-09 17:14:11] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool proton_37, AppID 858280
+[2022-10-09 17:14:11] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-09 17:14:11] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-09 17:14:11] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-09 17:14:12] Processing tool list from AppID 891390
+[2022-10-09 17:14:12] Registering tool proton_experimental, AppID 1493710
+[2022-10-09 17:14:12] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_7, AppID 1887720
+[2022-10-09 17:14:12] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_63, AppID 1580130
+[2022-10-09 17:14:12] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_513, AppID 1420170
+[2022-10-09 17:14:12] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_5, AppID 1245040
+[2022-10-09 17:14:12] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_411, AppID 1113280
+[2022-10-09 17:14:12] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_42, AppID 1054830
+[2022-10-09 17:14:12] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_316, AppID 961940
+[2022-10-09 17:14:12] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_37, AppID 858280
+[2022-10-09 17:14:12] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool proton_hotfix, AppID 2180100
+[2022-10-09 17:14:12] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-09 17:14:12] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-09 17:14:12] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-09 17:14:12] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-09 17:14:12] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-09 17:14:13] Processing tool list from AppID 891390
+[2022-10-09 17:14:13] Registering tool proton_experimental, AppID 1493710
+[2022-10-09 17:14:13] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_7, AppID 1887720
+[2022-10-09 17:14:13] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_63, AppID 1580130
+[2022-10-09 17:14:13] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_513, AppID 1420170
+[2022-10-09 17:14:13] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_5, AppID 1245040
+[2022-10-09 17:14:13] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_411, AppID 1113280
+[2022-10-09 17:14:13] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_42, AppID 1054830
+[2022-10-09 17:14:13] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_316, AppID 961940
+[2022-10-09 17:14:13] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_37, AppID 858280
+[2022-10-09 17:14:13] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool proton_hotfix, AppID 2180100
+[2022-10-09 17:14:13] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-09 17:14:13] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-09 17:14:13] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-09 17:14:13] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-09 17:14:13] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-10 09:33:39] Processing tool list from AppID 891390
+[2022-10-10 09:33:39] Registering tool proton_experimental, AppID 1493710
+[2022-10-10 09:33:39] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_7, AppID 1887720
+[2022-10-10 09:33:39] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_63, AppID 1580130
+[2022-10-10 09:33:39] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_513, AppID 1420170
+[2022-10-10 09:33:39] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_5, AppID 1245040
+[2022-10-10 09:33:39] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_411, AppID 1113280
+[2022-10-10 09:33:39] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_42, AppID 1054830
+[2022-10-10 09:33:39] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_316, AppID 961940
+[2022-10-10 09:33:39] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_37, AppID 858280
+[2022-10-10 09:33:39] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool proton_hotfix, AppID 2180100
+[2022-10-10 09:33:39] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-10 09:33:39] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-10 09:33:39] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-10 09:33:39] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-10 09:33:39] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-10 09:33:40] Processing tool list from AppID 891390
+[2022-10-10 09:33:40] Registering tool proton_experimental, AppID 1493710
+[2022-10-10 09:33:40] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_7, AppID 1887720
+[2022-10-10 09:33:40] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_63, AppID 1580130
+[2022-10-10 09:33:40] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_513, AppID 1420170
+[2022-10-10 09:33:40] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_5, AppID 1245040
+[2022-10-10 09:33:40] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_411, AppID 1113280
+[2022-10-10 09:33:40] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_42, AppID 1054830
+[2022-10-10 09:33:40] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_316, AppID 961940
+[2022-10-10 09:33:40] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_37, AppID 858280
+[2022-10-10 09:33:40] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool proton_hotfix, AppID 2180100
+[2022-10-10 09:33:40] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-10 09:33:40] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-10 09:33:40] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-10 09:33:40] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-10 09:33:40] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-10 17:21:49] Processing tool list from AppID 891390
+[2022-10-10 17:21:49] Registering tool proton_experimental, AppID 1493710
+[2022-10-10 17:21:49] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_7, AppID 1887720
+[2022-10-10 17:21:49] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_63, AppID 1580130
+[2022-10-10 17:21:49] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_513, AppID 1420170
+[2022-10-10 17:21:49] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_5, AppID 1245040
+[2022-10-10 17:21:49] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_411, AppID 1113280
+[2022-10-10 17:21:49] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_42, AppID 1054830
+[2022-10-10 17:21:49] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_316, AppID 961940
+[2022-10-10 17:21:49] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_37, AppID 858280
+[2022-10-10 17:21:49] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool proton_hotfix, AppID 2180100
+[2022-10-10 17:21:49] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-10 17:21:49] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-10 17:21:49] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-10 17:21:49] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-10 17:21:49] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-10 17:24:19] Processing tool list from AppID 891390
+[2022-10-10 17:24:19] Registering tool proton_experimental, AppID 1493710
+[2022-10-10 17:24:19] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_7, AppID 1887720
+[2022-10-10 17:24:19] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_63, AppID 1580130
+[2022-10-10 17:24:19] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_513, AppID 1420170
+[2022-10-10 17:24:19] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_5, AppID 1245040
+[2022-10-10 17:24:19] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_411, AppID 1113280
+[2022-10-10 17:24:19] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_42, AppID 1054830
+[2022-10-10 17:24:19] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_316, AppID 961940
+[2022-10-10 17:24:19] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_37, AppID 858280
+[2022-10-10 17:24:19] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool proton_hotfix, AppID 2180100
+[2022-10-10 17:24:19] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-10 17:24:19] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-10 17:24:19] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-10 17:24:19] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-10 17:24:19] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-10 17:54:47] StartSession: session abe1f713605cf7b4
+[2022-10-10 19:08:16] StartSession: session 394cd4b9537c743
+[2022-10-10 22:21:01] Processing tool list from AppID 891390
+[2022-10-10 22:21:01] Registering tool proton_experimental, AppID 1493710
+[2022-10-10 22:21:01] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_7, AppID 1887720
+[2022-10-10 22:21:01] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_63, AppID 1580130
+[2022-10-10 22:21:01] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_513, AppID 1420170
+[2022-10-10 22:21:01] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_5, AppID 1245040
+[2022-10-10 22:21:01] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_411, AppID 1113280
+[2022-10-10 22:21:01] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_42, AppID 1054830
+[2022-10-10 22:21:01] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_316, AppID 961940
+[2022-10-10 22:21:01] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_37, AppID 858280
+[2022-10-10 22:21:01] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool proton_hotfix, AppID 2180100
+[2022-10-10 22:21:01] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-10 22:21:01] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-10 22:21:01] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-10 22:21:01] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-10 22:21:01] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 15:12:51] Processing tool list from AppID 891390
+[2022-10-11 15:12:51] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 15:12:51] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_7, AppID 1887720
+[2022-10-11 15:12:51] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_63, AppID 1580130
+[2022-10-11 15:12:51] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_513, AppID 1420170
+[2022-10-11 15:12:51] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_5, AppID 1245040
+[2022-10-11 15:12:51] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_411, AppID 1113280
+[2022-10-11 15:12:51] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_42, AppID 1054830
+[2022-10-11 15:12:51] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_316, AppID 961940
+[2022-10-11 15:12:51] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_37, AppID 858280
+[2022-10-11 15:12:51] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 15:12:51] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 15:12:51] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 15:12:51] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 15:12:51] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 15:12:51] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 15:12:52] Processing tool list from AppID 891390
+[2022-10-11 15:12:52] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 15:12:52] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_7, AppID 1887720
+[2022-10-11 15:12:52] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_63, AppID 1580130
+[2022-10-11 15:12:52] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_513, AppID 1420170
+[2022-10-11 15:12:52] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_5, AppID 1245040
+[2022-10-11 15:12:52] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_411, AppID 1113280
+[2022-10-11 15:12:52] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_42, AppID 1054830
+[2022-10-11 15:12:52] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_316, AppID 961940
+[2022-10-11 15:12:52] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_37, AppID 858280
+[2022-10-11 15:12:52] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 15:12:52] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 15:12:52] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 15:12:52] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 15:12:52] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 15:12:52] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 16:36:22] Processing tool list from AppID 891390
+[2022-10-11 16:36:22] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 16:36:22] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_7, AppID 1887720
+[2022-10-11 16:36:22] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_63, AppID 1580130
+[2022-10-11 16:36:22] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_513, AppID 1420170
+[2022-10-11 16:36:22] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_5, AppID 1245040
+[2022-10-11 16:36:22] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_411, AppID 1113280
+[2022-10-11 16:36:22] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_42, AppID 1054830
+[2022-10-11 16:36:22] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_316, AppID 961940
+[2022-10-11 16:36:22] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_37, AppID 858280
+[2022-10-11 16:36:22] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 16:36:22] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 16:36:22] Processing tool list from AppID 891390
+[2022-10-11 16:36:22] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 16:36:22] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_7, AppID 1887720
+[2022-10-11 16:36:22] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_63, AppID 1580130
+[2022-10-11 16:36:22] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_513, AppID 1420170
+[2022-10-11 16:36:22] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_5, AppID 1245040
+[2022-10-11 16:36:22] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_411, AppID 1113280
+[2022-10-11 16:36:22] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_42, AppID 1054830
+[2022-10-11 16:36:22] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_316, AppID 961940
+[2022-10-11 16:36:22] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_37, AppID 858280
+[2022-10-11 16:36:22] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 16:36:22] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 16:36:22] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 16:36:22] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 18:09:09] Processing tool list from AppID 891390
+[2022-10-11 18:09:09] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 18:09:09] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_7, AppID 1887720
+[2022-10-11 18:09:09] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_63, AppID 1580130
+[2022-10-11 18:09:09] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_513, AppID 1420170
+[2022-10-11 18:09:09] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_5, AppID 1245040
+[2022-10-11 18:09:09] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_411, AppID 1113280
+[2022-10-11 18:09:09] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_42, AppID 1054830
+[2022-10-11 18:09:09] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_316, AppID 961940
+[2022-10-11 18:09:09] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_37, AppID 858280
+[2022-10-11 18:09:09] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 18:09:09] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 18:09:09] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 18:09:09] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 18:09:09] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 18:09:09] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 19:36:35] Processing tool list from AppID 891390
+[2022-10-11 19:36:35] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 19:36:35] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_7, AppID 1887720
+[2022-10-11 19:36:35] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_63, AppID 1580130
+[2022-10-11 19:36:35] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_513, AppID 1420170
+[2022-10-11 19:36:35] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_5, AppID 1245040
+[2022-10-11 19:36:35] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_411, AppID 1113280
+[2022-10-11 19:36:35] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_42, AppID 1054830
+[2022-10-11 19:36:35] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_316, AppID 961940
+[2022-10-11 19:36:35] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_37, AppID 858280
+[2022-10-11 19:36:35] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 19:36:35] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 19:36:35] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 19:36:35] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 19:36:35] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 19:36:35] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 22:12:57] Processing tool list from AppID 891390
+[2022-10-11 22:12:57] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 22:12:57] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_7, AppID 1887720
+[2022-10-11 22:12:57] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_63, AppID 1580130
+[2022-10-11 22:12:57] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_513, AppID 1420170
+[2022-10-11 22:12:57] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_5, AppID 1245040
+[2022-10-11 22:12:57] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_411, AppID 1113280
+[2022-10-11 22:12:57] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_42, AppID 1054830
+[2022-10-11 22:12:57] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_316, AppID 961940
+[2022-10-11 22:12:57] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_37, AppID 858280
+[2022-10-11 22:12:57] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 22:12:57] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 22:12:57] Processing tool list from AppID 891390
+[2022-10-11 22:12:57] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 22:12:57] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_7, AppID 1887720
+[2022-10-11 22:12:57] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_63, AppID 1580130
+[2022-10-11 22:12:57] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_513, AppID 1420170
+[2022-10-11 22:12:57] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_5, AppID 1245040
+[2022-10-11 22:12:57] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_411, AppID 1113280
+[2022-10-11 22:12:57] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_42, AppID 1054830
+[2022-10-11 22:12:57] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_316, AppID 961940
+[2022-10-11 22:12:57] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_37, AppID 858280
+[2022-10-11 22:12:57] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 22:12:57] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 22:12:57] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 22:12:57] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 22:13:19] Processing tool list from AppID 891390
+[2022-10-11 22:13:19] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 22:13:19] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_7, AppID 1887720
+[2022-10-11 22:13:19] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_63, AppID 1580130
+[2022-10-11 22:13:19] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_513, AppID 1420170
+[2022-10-11 22:13:19] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_5, AppID 1245040
+[2022-10-11 22:13:19] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_411, AppID 1113280
+[2022-10-11 22:13:19] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_42, AppID 1054830
+[2022-10-11 22:13:19] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_316, AppID 961940
+[2022-10-11 22:13:19] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_37, AppID 858280
+[2022-10-11 22:13:19] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 22:13:19] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-11 22:13:19] Processing tool list from AppID 891390
+[2022-10-11 22:13:19] Registering tool proton_experimental, AppID 1493710
+[2022-10-11 22:13:19] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_7, AppID 1887720
+[2022-10-11 22:13:19] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_63, AppID 1580130
+[2022-10-11 22:13:19] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_513, AppID 1420170
+[2022-10-11 22:13:19] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_5, AppID 1245040
+[2022-10-11 22:13:19] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_411, AppID 1113280
+[2022-10-11 22:13:19] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_42, AppID 1054830
+[2022-10-11 22:13:19] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_316, AppID 961940
+[2022-10-11 22:13:19] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_37, AppID 858280
+[2022-10-11 22:13:19] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool proton_hotfix, AppID 2180100
+[2022-10-11 22:13:19] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-11 22:13:19] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-11 22:13:19] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-12 17:18:42] Processing tool list from AppID 891390
+[2022-10-12 17:18:42] Registering tool proton_experimental, AppID 1493710
+[2022-10-12 17:18:42] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_7, AppID 1887720
+[2022-10-12 17:18:42] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_63, AppID 1580130
+[2022-10-12 17:18:42] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_513, AppID 1420170
+[2022-10-12 17:18:42] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_5, AppID 1245040
+[2022-10-12 17:18:42] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_411, AppID 1113280
+[2022-10-12 17:18:42] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_42, AppID 1054830
+[2022-10-12 17:18:42] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_316, AppID 961940
+[2022-10-12 17:18:42] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_37, AppID 858280
+[2022-10-12 17:18:42] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool proton_hotfix, AppID 2180100
+[2022-10-12 17:18:42] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-12 17:18:42] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-12 17:18:42] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-12 17:18:42] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-12 17:18:42] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-12 17:18:43] Processing tool list from AppID 891390
+[2022-10-12 17:18:43] Registering tool proton_experimental, AppID 1493710
+[2022-10-12 17:18:43] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_7, AppID 1887720
+[2022-10-12 17:18:43] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_63, AppID 1580130
+[2022-10-12 17:18:43] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_513, AppID 1420170
+[2022-10-12 17:18:43] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_5, AppID 1245040
+[2022-10-12 17:18:43] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_411, AppID 1113280
+[2022-10-12 17:18:43] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_42, AppID 1054830
+[2022-10-12 17:18:43] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_316, AppID 961940
+[2022-10-12 17:18:43] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_37, AppID 858280
+[2022-10-12 17:18:43] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool proton_hotfix, AppID 2180100
+[2022-10-12 17:18:43] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-12 17:18:43] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-12 17:18:43] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-12 17:18:43] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-12 17:18:43] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-12 17:19:07] Processing tool list from AppID 891390
+[2022-10-12 17:19:07] Registering tool proton_experimental, AppID 1493710
+[2022-10-12 17:19:07] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_7, AppID 1887720
+[2022-10-12 17:19:07] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_63, AppID 1580130
+[2022-10-12 17:19:07] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_513, AppID 1420170
+[2022-10-12 17:19:07] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_5, AppID 1245040
+[2022-10-12 17:19:07] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_411, AppID 1113280
+[2022-10-12 17:19:07] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_42, AppID 1054830
+[2022-10-12 17:19:07] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_316, AppID 961940
+[2022-10-12 17:19:07] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_37, AppID 858280
+[2022-10-12 17:19:07] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool proton_hotfix, AppID 2180100
+[2022-10-12 17:19:07] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-12 17:19:07] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-12 17:19:07] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-12 17:19:07] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-12 17:19:07] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-12 17:19:08] Processing tool list from AppID 891390
+[2022-10-12 17:19:08] Registering tool proton_experimental, AppID 1493710
+[2022-10-12 17:19:08] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_7, AppID 1887720
+[2022-10-12 17:19:08] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_63, AppID 1580130
+[2022-10-12 17:19:08] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_513, AppID 1420170
+[2022-10-12 17:19:08] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_5, AppID 1245040
+[2022-10-12 17:19:08] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_411, AppID 1113280
+[2022-10-12 17:19:08] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_42, AppID 1054830
+[2022-10-12 17:19:08] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_316, AppID 961940
+[2022-10-12 17:19:08] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_37, AppID 858280
+[2022-10-12 17:19:08] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool proton_hotfix, AppID 2180100
+[2022-10-12 17:19:08] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-12 17:19:08] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-12 17:19:08] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-12 17:19:08] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-12 17:19:08] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-12 18:24:12] StartSession: session d6b32f1baf24ca8b
+[2022-10-12 18:26:38] StartSession: session 2e107399da535771
+[2022-10-12 19:27:09] StartSession: session 8e2a4ab014c9c4f8
+[2022-10-12 20:24:06] Processing tool list from AppID 891390
+[2022-10-12 20:24:06] Registering tool proton_experimental, AppID 1493710
+[2022-10-12 20:24:06] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_7, AppID 1887720
+[2022-10-12 20:24:06] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_63, AppID 1580130
+[2022-10-12 20:24:06] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_513, AppID 1420170
+[2022-10-12 20:24:06] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_5, AppID 1245040
+[2022-10-12 20:24:06] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_411, AppID 1113280
+[2022-10-12 20:24:06] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_42, AppID 1054830
+[2022-10-12 20:24:06] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_316, AppID 961940
+[2022-10-12 20:24:06] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_37, AppID 858280
+[2022-10-12 20:24:06] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool proton_hotfix, AppID 2180100
+[2022-10-12 20:24:06] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-12 20:24:06] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-12 20:24:06] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-12 20:24:06] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-12 20:24:06] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-13 09:19:44] Processing tool list from AppID 891390
+[2022-10-13 09:19:44] Registering tool proton_experimental, AppID 1493710
+[2022-10-13 09:19:44] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_7, AppID 1887720
+[2022-10-13 09:19:44] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_63, AppID 1580130
+[2022-10-13 09:19:44] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_513, AppID 1420170
+[2022-10-13 09:19:44] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_5, AppID 1245040
+[2022-10-13 09:19:44] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_411, AppID 1113280
+[2022-10-13 09:19:44] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_42, AppID 1054830
+[2022-10-13 09:19:44] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_316, AppID 961940
+[2022-10-13 09:19:44] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_37, AppID 858280
+[2022-10-13 09:19:44] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_hotfix, AppID 2180100
+[2022-10-13 09:19:44] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-13 09:19:44] Processing tool list from AppID 891390
+[2022-10-13 09:19:44] Registering tool proton_experimental, AppID 1493710
+[2022-10-13 09:19:44] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_7, AppID 1887720
+[2022-10-13 09:19:44] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_63, AppID 1580130
+[2022-10-13 09:19:44] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_513, AppID 1420170
+[2022-10-13 09:19:44] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_5, AppID 1245040
+[2022-10-13 09:19:44] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_411, AppID 1113280
+[2022-10-13 09:19:44] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_42, AppID 1054830
+[2022-10-13 09:19:44] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_316, AppID 961940
+[2022-10-13 09:19:44] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_37, AppID 858280
+[2022-10-13 09:19:44] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool proton_hotfix, AppID 2180100
+[2022-10-13 09:19:44] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-13 09:19:44] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-13 09:19:44] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-13 09:40:08] StartSession: session 991103cda6d1bc6c
+[2022-10-13 10:16:07] StartSession: session b6462305f14290e8
+[2022-10-13 13:52:44] StartSession: session 2db4c78e5b27d0d5
+[2022-10-14 17:20:36] Processing tool list from AppID 891390
+[2022-10-14 17:20:36] Registering tool proton_experimental, AppID 1493710
+[2022-10-14 17:20:36] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_7, AppID 1887720
+[2022-10-14 17:20:36] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_63, AppID 1580130
+[2022-10-14 17:20:36] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_513, AppID 1420170
+[2022-10-14 17:20:36] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_5, AppID 1245040
+[2022-10-14 17:20:36] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_411, AppID 1113280
+[2022-10-14 17:20:36] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_42, AppID 1054830
+[2022-10-14 17:20:36] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_316, AppID 961940
+[2022-10-14 17:20:36] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_37, AppID 858280
+[2022-10-14 17:20:36] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_hotfix, AppID 2180100
+[2022-10-14 17:20:36] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
+[2022-10-14 17:20:36] Processing tool list from AppID 891390
+[2022-10-14 17:20:36] Registering tool proton_experimental, AppID 1493710
+[2022-10-14 17:20:36] Ignoring tool proton_experimental as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_7, AppID 1887720
+[2022-10-14 17:20:36] Ignoring tool proton_7 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_63, AppID 1580130
+[2022-10-14 17:20:36] Ignoring tool proton_63 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_513, AppID 1420170
+[2022-10-14 17:20:36] Ignoring tool proton_513 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_5, AppID 1245040
+[2022-10-14 17:20:36] Ignoring tool proton_5 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_411, AppID 1113280
+[2022-10-14 17:20:36] Ignoring tool proton_411 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_42, AppID 1054830
+[2022-10-14 17:20:36] Ignoring tool proton_42 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_316, AppID 961940
+[2022-10-14 17:20:36] Ignoring tool proton_316 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_37, AppID 858280
+[2022-10-14 17:20:36] Ignoring tool proton_37 as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool proton_hotfix, AppID 2180100
+[2022-10-14 17:20:36] Ignoring tool proton_hotfix as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime_sniper, AppID 1628350
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime_sniper as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime_soldier, AppID 1391110
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime_soldier as it's for a different target platform linux.
+[2022-10-14 17:20:36] Registering tool steamlinuxruntime, AppID 1070560
+[2022-10-14 17:20:36] Ignoring tool steamlinuxruntime as it's for a different target platform linux.
