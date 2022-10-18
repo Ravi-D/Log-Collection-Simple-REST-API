@@ -75,7 +75,7 @@ namespace LogCollection.Controllers
             {
                 _logger.LogTrace($"Function: {nameof(Get1GBLogTest)}\n ID: {_fileHandler.GetCorrelationId()}\n Exception: {ex}");
                 Console.WriteLine(ex.Message);
-                HttpContext.Response.StatusCode = 404;
+                HttpContext.Response.StatusCode = 500;
                 
                 return new ContentResult() { Content = ex.Message, StatusCode = HttpContext.Response.StatusCode };
             }
