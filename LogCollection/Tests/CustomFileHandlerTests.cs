@@ -3,6 +3,7 @@ using NUnit.Framework;
 using System;
 using LogCollection.Interfaces;
 using static LogCollection.Tests.TestConstants;
+using LogCollection.Helpers;
 
 namespace LogCollection.Tests
 {

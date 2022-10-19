@@ -1,4 +1,5 @@
-﻿using LogCollection.Interfaces;
+﻿using LogCollection.Helpers;
+using LogCollection.Interfaces;
 
 namespace LogCollection
 {
