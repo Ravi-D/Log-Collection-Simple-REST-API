@@ -49,7 +49,6 @@ namespace LogCollection.Controllers
             }
             
             Console.WriteLine(logResult);
-
             return new ContentResult() { Content = logResult, StatusCode = HttpContext.Response.StatusCode };
         }
 
