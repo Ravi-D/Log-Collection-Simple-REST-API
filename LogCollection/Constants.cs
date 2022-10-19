@@ -14,6 +14,9 @@
         public const string EOF_WIN = @"\r\n"; //Environment.NewLine will return correct end of file byte according to host OS type. \n for Unix, \r\n for Windows
         public const string EOF_UNIX = "\n";
 
+        public const int DEFAULT_LINES = 500;
+        public const int DEFAULT_BUFFER = 4096;
+
         public const int ONE_GB = 1073741824; //Bytes
         public const int MEMORY_STREAM_SIZE = 1024*20;
         public const int MEMORY_STREAM_TIMEOUT = 300000;
