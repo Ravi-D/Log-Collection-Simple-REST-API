@@ -25,7 +25,7 @@ namespace LogCollection.Helpers
         /// <returns>string result of log data, optionally filtered by keyword and restricted to a certain line count.</returns>
         public string ProcessRequest(LogRequest logRequest)
         {
-            string logResult = string.Empty;
+            string logResult = String.Empty;
             string fullPath = logRequest.GetFullPath();
             string fileName = logRequest.GetFileName();
             int? linesRequested = logRequest.GetMaxLinesToReturn();
@@ -35,7 +35,7 @@ namespace LogCollection.Helpers
 
             if (linesRequested <= 0)
             {
-                return string.Empty;
+                return String.Empty;
             }
 
             bool test = string.IsNullOrWhiteSpace(keyword);
@@ -46,12 +46,16 @@ namespace LogCollection.Helpers
             bool lineCountRequired = linesRequested > 0;
             bool bothOptionsPresent = filterRequired && lineCountRequired;
 
-            int linesAdded = 0;
-
             
             StringBuilder resultBuilder = new StringBuilder();
-            string[] buffer = new string[4096];
+            List<string> linesToPrint = new List<string>();
+            
+            int linesAdded = 0;            
             string? line;
+            
+            //Commented lines are a sneak peek of two new "Reverse" StreamReaders that would avoid the List.Add and reverse iteration operations used in this code.
+            //using(ReverseTextReader rtr = new ReverseTextReader(fullPath))
+            //using(ReverseFileReader rfr = new ReverseFileReader(fullPath))
             
             using (StreamReader sr = new StreamReader(fullPath))
             {
@@ -61,14 +65,14 @@ namespace LogCollection.Helpers
 
                     if (returnEntireFile)
                     {
-                        resultBuilder.Append(line + "\n");
+                        linesToPrint.Add(line + "\n");
                     }
 
                     if (bothOptionsPresent && line.Contains(keyword))
                     {
                         if (linesAdded < linesRequested)
                         {
-                            resultBuilder.Append(line + "\n");
+                            linesToPrint.Add(line + "\n");
                             linesAdded += 1;
                         }
                         else
@@ -80,7 +84,7 @@ namespace LogCollection.Helpers
                     {
                         if (linesAdded < linesRequested)
                         {
-                            resultBuilder.Append(line + "\n");
+                            linesToPrint.Add(line + "\n");
                             linesAdded += 1;
                         }
                         else
@@ -91,9 +95,14 @@ namespace LogCollection.Helpers
 
                     if (keywordFound && !lineCountRequired)
                     {
-                        resultBuilder.Append(line + "\n");
+                        linesToPrint.Add(line + "\n");
                     }
                 }
+            }
+
+            for (int i = linesToPrint.Count - 1; i > 1; i--)
+            {
+                resultBuilder.Append(linesToPrint[i]);
             }
 
             logResult = resultBuilder.ToString();
@@ -112,37 +121,39 @@ namespace LogCollection.Helpers
         /// <returns>string result of log data, optionally filtered by keyword and restricted to a certain line count.</returns>
         public string ProcessRequest_1GB_Test(LogRequest logRequest)
         {
+            //Cut over to StreamReader for now since 1GB test and MemoryMapping are dormant for now.
+            return ProcessRequest(logRequest);
 
-            string logResult = string.Empty;
-            string fullPath = logRequest.GetFullPath();
-            string fileName = logRequest.GetFileName();
-            int? linesRequested = logRequest.GetMaxLinesToReturn();
-            string? keyword = logRequest.GetSearchTerm();
+            //string logResult = string.Empty;
+            //string fullPath = logRequest.GetFullPath();
+            //string fileName = logRequest.GetFileName();
+            //int? linesRequested = logRequest.GetMaxLinesToReturn();
+            //string? keyword = logRequest.GetSearchTerm();
 
-            long fileSize = new FileInfo(fullPath).Length;
+            //long fileSize = new FileInfo(fullPath).Length;
 
-            StringBuilder resultBuilder = new StringBuilder();
-            using (MemoryMappedFile mappedFile = MemoryMappedFile.CreateFromFile(fullPath))
-            using (MemoryMappedViewAccessor mapView = mappedFile.CreateViewAccessor(0, fileSize, MemoryMappedFileAccess.Read))
-            using (MemoryMappedViewStream viewStream = mappedFile.CreateViewStream(0, fileSize, MemoryMappedFileAccess.Read))
-            {
-                for (int i = 0; i < fileSize; i++)
-                {
-                    //Read one byte at a time until the end of the stream.
-                    int result = viewStream.ReadByte();
+            //StringBuilder resultBuilder = new StringBuilder();
+            //using (MemoryMappedFile mappedFile = MemoryMappedFile.CreateFromFile(fullPath))
+            //using (MemoryMappedViewAccessor mapView = mappedFile.CreateViewAccessor(0, fileSize, MemoryMappedFileAccess.Read))
+            //using (MemoryMappedViewStream viewStream = mappedFile.CreateViewStream(0, fileSize, MemoryMappedFileAccess.Read))
+            //{
+            //    for (int i = 0; i < fileSize; i++)
+            //    {
+            //        //Read one byte at a time until the end of the stream.
+            //        int result = viewStream.ReadByte();
 
-                    if (result == -1)
-                    {
-                        break;
-                    }
-                    resultBuilder.Append((char)result);
-                }
-            }
+            //        if (result == -1)
+            //        {
+            //            break;
+            //        }
+            //        resultBuilder.Append((char)result);
+            //    }
+            //}
 
-            logResult = resultBuilder.ToString();
-            resultBuilder.Clear();
+            //logResult = resultBuilder.ToString();
+            //resultBuilder.Clear();
 
-            return logResult;
+            //return logResult;
         }
     }
 }
