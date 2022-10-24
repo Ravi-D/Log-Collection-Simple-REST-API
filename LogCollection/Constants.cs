@@ -3,7 +3,7 @@
     public class Constants
     {
         //To run this application correctly, please update the PROD_SOURCE_DIRECTORY to a location that contains your target log files to read.
-        public const string PROD_SOURCE_DIRECTORY = @"C:\Users\Ravi\Desktop\temp\";
+        public const string PROD_SOURCE_DIRECTORY = @".../var/log/";
         public const string STG_SOURCE_DIRECTORY = @"C:\Users\Ravi\Desktop\temp\";
         
         public const string TEST_LOG = @"C:\Users\Ravi\Desktop\temp\log.txt";
