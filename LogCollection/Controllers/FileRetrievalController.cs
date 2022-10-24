@@ -29,27 +29,30 @@ namespace LogCollection.Controllers
         public ContentResult GetLogByName(string fileName, int? linesToReturn, string? searchTerm)
         {
             string fullPath = PROD_SOURCE_DIRECTORY + fileName;
-            string logResult = String.Empty;
+            string content = String.Empty;
 
             try
             {
-                logResult = _fileHandler.ProcessRequest(new LogRequest(fullPath, fileName, linesToReturn, searchTerm));
+                if (!System.IO.File.Exists(fullPath))
+                {                    
+                    HttpContext.Response.StatusCode = 404;
+                    throw new FileNotFoundException(ERR_NOT_FOUND);
+                }
+                content = _fileHandler.ProcessRequest(new LogRequest(fullPath, fileName, linesToReturn, searchTerm));
             }
 
             //TODO Future Work - Add more intentional error handling/custom exceptions
-            //FileNotFound, UnauthorizedAccess, IndexOutOfBounds etc are all caught by the file handler rather than being explicitly checked for and handled that way.
-            //I wanted to minimize the work explicitly being done in this function. Let the _fileHandler deal with it while our GET just prints our logfile results.
+            //FileNotFound, UnauthorizedAccess, IndexOutOfBounds etc caught by file handler and sent back here.
             catch (Exception ex)
             {
-                _logger.LogTrace($"Function: {nameof(GetLogByName)}\n ID: {_fileHandler.GetCorrelationId()}\n Exception: {ex}");
-                Console.WriteLine(ex.Message);
-                HttpContext.Response.StatusCode = 404;
-
-                return new ContentResult() { Content = ex.Message, StatusCode = HttpContext.Response.StatusCode };
+                _logger.LogWarning($"Calling function: {nameof(GetLogByName)}\n" +
+                                   $"ID: {_fileHandler.GetCorrelationId()}\n" +
+                                   $"Caught Exception: {ex}");
+                content = ex.Message;
             }
-            
-            Console.WriteLine(logResult);
-            return new ContentResult() { Content = logResult, StatusCode = HttpContext.Response.StatusCode };
+
+            Console.WriteLine(content);
+            return new ContentResult() { Content = content, StatusCode = HttpContext.Response.StatusCode };
         }
 
         /// <summary>

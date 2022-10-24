@@ -1,4 +1,5 @@
-﻿using LogCollection.Interfaces;
+﻿using LogCollection.Controllers;
+using LogCollection.Interfaces;
 using Newtonsoft.Json.Linq;
 using System.IO.MemoryMappedFiles;
 using System.Text;
@@ -38,27 +39,24 @@ namespace LogCollection.Helpers
                 return String.Empty;
             }
 
-            bool test = string.IsNullOrWhiteSpace(keyword);
-
-            //Need to address this logic and implement Default Lines value for LogRequest object.
-            bool returnEntireFile = (linesRequested == null || linesRequested > fileSize) && string.IsNullOrWhiteSpace(keyword);
+            bool returnEntireFile = (linesRequested == null && string.IsNullOrWhiteSpace(keyword));
             bool filterRequired = !string.IsNullOrWhiteSpace(keyword);
             bool lineCountRequired = linesRequested > 0;
-            bool bothOptionsPresent = filterRequired && lineCountRequired;
-
+            bool bothOptionsPresent = (filterRequired && lineCountRequired);
             
             StringBuilder resultBuilder = new StringBuilder();
             List<string> linesToPrint = new List<string>();
             
             int linesAdded = 0;            
             string? line;
-            
+
             //Commented lines are a sneak peek of two new "Reverse" StreamReaders that would avoid the List.Add and reverse iteration operations used in this code.
             //using(ReverseTextReader rtr = new ReverseTextReader(fullPath))
             //using(ReverseFileReader rfr = new ReverseFileReader(fullPath))
             
             using (StreamReader sr = new StreamReader(fullPath))
             {
+                //Could use _logger.LogTrace here for more granular reporting    
                 while ((line = sr.ReadLine()) != null)
                 {
                     bool keywordFound = filterRequired && line.Contains(keyword);
@@ -121,7 +119,7 @@ namespace LogCollection.Helpers
         /// <returns>string result of log data, optionally filtered by keyword and restricted to a certain line count.</returns>
         public string ProcessRequest_1GB_Test(LogRequest logRequest)
         {
-            //Cut over to StreamReader for now since 1GB test and MemoryMapping are dormant for now.
+            //Cut over to StreamReader since 1GB test and MemoryMapping are dormant for now.
             return ProcessRequest(logRequest);
 
             //string logResult = string.Empty;

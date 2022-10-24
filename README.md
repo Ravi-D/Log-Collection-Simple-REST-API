@@ -17,11 +17,21 @@ This Web API solution written in C# / .NET Core 6.0.7 allows a user to retrieve 
     2. 🎉 Your solution should be running! 💨
     3. This method is considered Debugging/Development mode, so your browser will open up the Swagger URL: `https://localhost:####/swagger/index.html`
     3. Consult the next section for instructions on how to use Swagger or Postman to interact with the API.
+
 #### Via Executable File ####
     1. Navigate to your LogCollection application file (\...\LogCollection\LogCollection\bin\Release\net6.0\) and double click it.
     2. The API should be running! 🏃🏽‍♂️
-    3. Open your Command Prompt window and note down the localhost URL that is being used. 
-    4. You will need this URL for the Postman instructions below - we are not using the Swagger UI because this is the RELEASE/"Production" version of the application. If you notice in the `Program.cs` file, this is why the Swagger isn't generated.
+    3. View your Command Prompt window and note down the localhost URL that is being used.
+    4. Use the first line of information -> `Now listening on https://localhost:7182`
+    5. You will need this URL for the Postman instructions below - we are not using the Swagger UI because this is the RELEASE/"Production" version of the application. If you notice in the `Program.cs` file, this is why the Swagger isn't generated.
+
+#### Via Command Line ####
+    1. Navigate to your LogCollection application file (\...\LogCollection\LogCollection\bin\Release\net6.0\)
+    2. Execute the following command `dotnet run .\LogCollection.exe --project "\...\LogCollection\LogCollection\LogCollection.csproj"`
+        2.5. You may optionally add `--urls=https://localhost:4DigitsHere` to use your own port number.
+    4. View your Command Prompt window and note down the localhost URL that is being used.
+    5. Use the first line of information -> `Now listening on https://localhost:7182`
+    6. You will need this URL for the Postman instructions below - we are not using the Swagger UI because this is the RELEASE/"Production" version of the application. If you notice in the `Program.cs` file, this is why the Swagger isn't generated.
 
 📝 Note: 
 
@@ -29,6 +39,27 @@ This Web API solution written in C# / .NET Core 6.0.7 allows a user to retrieve 
 			A new `LogRequest` object will be created with the parameters you provided, and the file handler will get to work!
 ## 😎 Swagger / Postman 📮 ## 
 	
+Example `curl` commands for your reference:
+
+Log: `curl -X 'GET' \
+  'https://localhost:7182/FileRetrieval/api/get-log-by-name?fileName=install.log&linesToReturn=15' \
+  -H 'accept: */*'`
+
+Log with lines: `curl -X 'GET' \
+  'https://localhost:7182/FileRetrieval/api/get-log-by-name?fileName=install.log&linesToReturn=15' \
+  -H 'accept: */*'`
+
+Log with filter: `curl -X 'GET' \
+  'https://localhost:7182/FileRetrieval/api/get-log-by-name?fileName=install.log&searchTerm=error' \
+  -H 'accept: */*'`
+
+
+Log with lines and filter: `curl -X 'GET' \
+  'https://localhost:7182/FileRetrieval/api/get-log-by-name?fileName=install.log&linesToReturn=15&searchTerm=error' \
+  -H 'accept: */*'`
+
+
+
 Swagger
 1. Using the browser window that Visual Studio opened for you, click on the API you'd like to test. 
 2. Enter your parameters and observe the results!
@@ -37,7 +68,7 @@ Swagger
 Postman
 1. Using Postman or another REST client, send GET requests per the specifications outlined in Swagger. 
 
-    1.1. If you are running the application via executable, check your command prompt window. It will tell you which localhost route to use on Postman.
+    1.5. If you are running the application via executable, check the first line of your command prompt window. It will tell you which localhost route to use on Postman.
 
 2. Your Postman should look something like this:
 GET `https://localhost:####/FileRetrieval/api/get-log-by-name?fileName=log-small.txt&linesToReturn=5&searchTerm=2022-10-15`
