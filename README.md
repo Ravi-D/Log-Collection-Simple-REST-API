@@ -1,6 +1,6 @@
 # REST API Log Collection 📄
 
-This Web API solution written in C# / .NET 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted by a maximum number of lines requested.
+This Web API solution written in C# / .NET 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted to a maximum number of lines requested.
 
 - The testing of this project was aided with local test files and hardcoded directories.
 - I didn't write a programmatic way for a user to edit this without digging into the source code, so a small console interface or utilizing unique appsettings.json files would save users some setup time.
@@ -112,7 +112,7 @@ This project relies on local files to verify application behavior, and the test 
 ##### 🤔 What's Next?  ####
 - Continue to build using Objected Oriented Principles: Maintain a StreamReaderFileHandler class as well as MemoryMappedFileHandler class, both implementing IFileHandler.
 	- The current solution is the result of beginning to address the prompt and structure OOP around a MemoryMappedFileHandler with the Mapped File and Mapped View Stream being passed in via Dependency Injection, but then having to refactor due to the difficulty I had satisfying the assessment constraints around optional parameters.
-    - MemoryMapped file handling is extremely performant for random access and reading subsections of a large file, byte by byte. It's good stuff, but not when you try to force it to read entire multi GB files in this fashion with only one "subsection"!
+    - MemoryMapped file handling is extremely performant for random access and reading subsections of a large file, byte by byte. It's good stuff, but not when you try to force it to read entire multi GB files in this fashion with only one "subsection!"
     - StreamReader on the other hand, is able to sequentially read lines one at a time, which makes applying logic around max lines and keyword filtering wayyy easier. 
    - You don't have to keep track of a huge number of bytes and piece them together after the fact. Verifying if you've returned the exact amount of lines requested, with the lines correctly checked for filters leaves too many edge case scenarios. 
      - Use the best tool for the job with the time constraints you have. ⚒ 
