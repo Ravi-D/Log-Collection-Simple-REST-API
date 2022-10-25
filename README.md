@@ -1,6 +1,6 @@
 # REST API Log Collection 📄
 
-This Web API solution written in C# / .NET Core 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted by a maximum number of lines requested.
+This Web API solution written in C# / .NET 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted by a maximum number of lines requested.
 
 - The testing of this project was aided with local test files and hardcoded directories.
 - I didn't write a programmatic way for a user to edit this without digging into the source code, so a small console interface or utilizing unique appsettings.json files would save users some setup time.
