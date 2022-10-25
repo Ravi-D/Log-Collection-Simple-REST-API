@@ -97,6 +97,7 @@ This project relies on local files to verify application behavior, and the test 
 
  
 1. Right click on the LogCollection solution and click Run Tests. You can also enter the Tests files and run individual tests manually.
+	
 	1.1. Or set breakpoints manually and Debug Tests.
 
 #### 🧠 Some thoughts I had....  ####
