@@ -103,9 +103,9 @@ This project relies on local files to verify application behavior, and the test 
 #### 🧠 Some thoughts I had....  ####
 ##### Initial Planning
 - Which file reading library would work best for this use case? (Keeping in mind performance, and ease of use.)
-	- MemoryMappedFiles versus StreamReader. At first I decided to push
+	- MemoryMappedFiles versus StreamReader. I began with MemoryMapped but used it like I was using a StreamReader. Then it became apparent that although this worked as an MVP of sorts for basic log retrieval, it would not be realistic to force this solution to satisfy the constraints of filtering and maximum line counts... 
 - The ever-present "how should I structure all of this, which File I/O library do I use "internal monologue that possibly results in a tiny mid-development refactor.
-    -  Update at the end of the project: Check out the What's Next section for details 🙃
+    -  Update at the end of the project. I had to rollback and use StreamReader. Check out the What's Next section for details 🙃
 - Developing on a Windows machine for a solution specifically targeting Unix machines.
 	- Have to keep in mind the differences with line ending characters "\\r and \\n" on Windows, versus just "\\n" on Unix machines.
 
