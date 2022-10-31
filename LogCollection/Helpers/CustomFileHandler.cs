@@ -43,17 +43,16 @@ namespace LogCollection.Helpers
             bool filterRequired = !string.IsNullOrWhiteSpace(keyword);
             bool lineCountRequired = linesRequested > 0;
             bool bothOptionsPresent = (filterRequired && lineCountRequired);
-            
-            StringBuilder resultBuilder = new StringBuilder();
-            List<string> linesToPrint = new List<string>();
-            
-            int linesAdded = 0;            
-            string? line;
 
             //Commented lines are a sneak peek of two new "Reverse" StreamReaders that would avoid the List.Add and reverse iteration operations used in this code.
             //using(ReverseTextReader rtr = new ReverseTextReader(fullPath))
             //using(ReverseFileReader rfr = new ReverseFileReader(fullPath))
+
+            StringBuilder resultBuilder = new StringBuilder();
+            List<string> linesToPrint = new List<string>();
             
+            int linesAdded = 0;
+            string? line;
             using (StreamReader sr = new StreamReader(fullPath))
             {
                 //Could use _logger.LogTrace here for more granular reporting    
