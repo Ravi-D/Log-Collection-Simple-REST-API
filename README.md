@@ -1,6 +1,6 @@
 # REST API Log Collection 📄
 
-This Web API solution written in C# / .NET Core 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted by a maximum number of lines requested.
+This Web API solution written in C# / .NET 6.0.7 allows a user to retrieve lines of data from a given log file in a directory. The results can be optionally filtered with keywords as well as restricted to a maximum number of lines requested.
 
 - The testing of this project was aided with local test files and hardcoded directories.
 - I didn't write a programmatic way for a user to edit this without digging into the source code, so a small console interface or utilizing unique appsettings.json files would save users some setup time.
@@ -97,14 +97,15 @@ This project relies on local files to verify application behavior, and the test 
 
  
 1. Right click on the LogCollection solution and click Run Tests. You can also enter the Tests files and run individual tests manually.
+	
 	1.1. Or set breakpoints manually and Debug Tests.
 
 #### 🧠 Some thoughts I had....  ####
 ##### Initial Planning
 - Which file reading library would work best for this use case? (Keeping in mind performance, and ease of use.)
-	- MemoryMappedFiles versus StreamReader. At first I decided to push
+	- MemoryMappedFiles versus StreamReader. I began with MemoryMapped but used it like I was using a StreamReader. Then it became apparent that although this worked as an MVP of sorts for basic log retrieval, it would not be realistic to force this solution to satisfy the constraints of filtering and maximum line counts... 
 - The ever-present "how should I structure all of this, which File I/O library do I use "internal monologue that possibly results in a tiny mid-development refactor.
-    -  Update at the end of the project: Check out the What's Next section for details 🙃
+    -  Update at the end of the project. I had to rollback and use StreamReader. Check out the What's Next section for details 🙃
 - Developing on a Windows machine for a solution specifically targeting Unix machines.
 	- Have to keep in mind the differences with line ending characters "\\r and \\n" on Windows, versus just "\\n" on Unix machines.
 
@@ -112,7 +113,7 @@ This project relies on local files to verify application behavior, and the test 
 ##### 🤔 What's Next?  ####
 - Continue to build using Objected Oriented Principles: Maintain a StreamReaderFileHandler class as well as MemoryMappedFileHandler class, both implementing IFileHandler.
 	- The current solution is the result of beginning to address the prompt and structure OOP around a MemoryMappedFileHandler with the Mapped File and Mapped View Stream being passed in via Dependency Injection, but then having to refactor due to the difficulty I had satisfying the assessment constraints around optional parameters.
-    - MemoryMapped file handling is extremely performant for random access and reading subsections of a large file, byte by byte. It's good stuff, but not when you try to force it to read entire multi GB files in this fashion with only one "subsection"!
+    - MemoryMapped file handling is extremely performant for random access and reading subsections of a large file, byte by byte. It's good stuff, but not when you try to force it to read entire multi GB files in this fashion with only one "subsection!"
     - StreamReader on the other hand, is able to sequentially read lines one at a time, which makes applying logic around max lines and keyword filtering wayyy easier. 
    - You don't have to keep track of a huge number of bytes and piece them together after the fact. Verifying if you've returned the exact amount of lines requested, with the lines correctly checked for filters leaves too many edge case scenarios. 
      - Use the best tool for the job with the time constraints you have. ⚒ 
